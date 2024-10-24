@@ -6,12 +6,12 @@ When a packet sniffer is deployed, it places the network interface card (NIC) in
 
 # 💻 Uses of a Network Packet Sniffer
 
-1. Network Diagnostics and Troubleshooting
-2. Performance Monitoring
-3. Security Auditing and Intrusion Detection
-4. Protocol Analysis
-5. Application Development and Testing
-6. Network Forensics
+- Network Diagnostics and Troubleshooting
+- Performance Monitoring
+- Security Auditing and Intrusion Detection
+- Protocol Analysis
+- Application Development and Testing
+- Network Forensics
 
 # Network Packet Sniffer using Java and Jpcap
 ## 📖 Description
