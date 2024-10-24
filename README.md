@@ -13,7 +13,7 @@ When a packet sniffer is deployed, it places the network interface card (NIC) in
 - Application Development and Testing
 - Network Forensics
 
-# Network Packet Sniffer using Java and Jpcap
+# 🔧 Network Packet Sniffer using Java and Jpcap
 ## 📖 Description
 This project is a Network Packet Sniffer built using Java and the Jpcap library. A packet sniffer is a powerful tool that captures, monitors, and analyzes network traffic in real-time. It allows users to inspect the contents of individual packets for diagnostic, performance analysis, and security purposes.
 
