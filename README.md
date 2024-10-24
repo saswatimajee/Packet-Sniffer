@@ -1,24 +1,26 @@
-# What is a Network Packet Sniffer?
+# 📶 What is a Network Packet Sniffer?
 
 A network packet sniffer is a software tool or hardware device used to intercept, capture, and analyze network traffic passing through a communication channel. It works by monitoring data packets at a low level, often at the network or data link layer of the OSI model. This tool allows users to examine the contents of individual packets to diagnose issues, analyze performance, or detect potential security vulnerabilities.
 
 When a packet sniffer is deployed, it places the network interface card (NIC) in promiscuous mode, allowing the NIC to capture all packets within the network segment, even those not addressed to it.
 
-# Uses of a Network Packet Sniffer
-## Network Diagnostics and Troubleshooting
-Network administrators use packet sniffers to identify issues such as latency, packet loss, or connection errors. It helps in detecting network bottlenecks and optimizing data flow.
+# 💻 Uses of a Network Packet Sniffer
 
-## Performance Monitoring
-Sniffers assist in monitoring bandwidth usage and identifying high-traffic areas. This ensures efficient allocation of resources and prevents network congestion.
+1. Network Diagnostics and Troubleshooting
+2. Performance Monitoring
+3. Security Auditing and Intrusion Detection
+4. Protocol Analysis
+5. Application Development and Testing
+6. Network Forensics
 
-## Security Auditing and Intrusion Detection
-Packet sniffers are used in detecting malicious activities such as unauthorized access, DoS attacks, and man-in-the-middle attacks by analyzing unusual patterns in network traffic.
+# Network Packet Sniffer using Java and Jpcap
+## 📖 Description
+This project is a Network Packet Sniffer built using Java and the Jpcap library. A packet sniffer is a powerful tool that captures, monitors, and analyzes network traffic in real-time. It allows users to inspect the contents of individual packets for diagnostic, performance analysis, and security purposes.
 
-## Protocol Analysis
-It helps in understanding how specific protocols (like TCP, UDP, HTTP, etc.) behave, which is useful for protocol debugging and ensuring that protocols comply with standards.
+By utilizing Jpcap, this tool enables deep insights into network communication, such as analyzing headers, filtering specific protocols, and identifying network anomalies. This project demonstrates both networking concepts and Java programming skills.
 
-## Application Development and Testing
-Developers use packet sniffers to monitor data exchange between client and server applications during testing phases. This ensures smooth communication and helps identify errors in data transmission.
-
-## Network Forensics
-During investigations, packet sniffers are used to reconstruct communication logs, detect breaches, or gather evidence for security incidents.
+# 🚀 Features
+- Real-time packet capturing from network interfaces.
+- Protocol-based filtering (e.g., TCP, UDP, ICMP, ARP).
+- Promiscuous mode support to capture all packets within a network segment.
+- Packet analysis to view source/destination IP, ports, payload, and headers.
